@@ -1,4 +1,4 @@
-const repo = 'fineq';
+const repo = 'https://apansky.github.io/fineq/';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
