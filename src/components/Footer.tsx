@@ -21,14 +21,14 @@ const Footer: React.FC = () => {
           </p>
       </div>
       <div>
-          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-          <ul className="text-foreground-accent">
-              {footerDetails.quickLinks.map(link => (
-                  <li key={link.text} className="mb-2">
-                      <Link href={link.url} className="hover:text-foreground">{link.text}</Link>
-                  </li>
-              ))}
-          </ul>
+        <h4 className="text-lg font-semibold mb-4">Rýchle linky</h4>
+        <ul className="text-foreground-accent">
+          {footerDetails.quickLinks.map(link => (
+            <li key={link.text} className="mb-2">
+              <Link href={link.url} className="hover:text-foreground">{link.text}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
       <div>
           <h4 className="text-lg font-semibold mb-4">Kontakujte nás</h4>

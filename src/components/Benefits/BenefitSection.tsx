@@ -55,7 +55,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: true }}>
-          <div className={clsx("flex flex-wrap items-center w-full max-w-lg", { "justify-start": imageAtRight, "lg:order-1 justify-end": !imageAtRight })}>
+          <div className={clsx("flex flex-wrap items-center w-full", { "justify-start": imageAtRight, "lg:order-1 justify-end": !imageAtRight })}>
             <div className="w-full text-center lg:text-left ">
               <motion.div className="flex flex-col w-full" variants={childVariants}>
                 <SectionTitle>
@@ -63,13 +63,13 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
                     {title}
                   </h3>
                 </SectionTitle>
-                <h4 className="lg:max-w-3xl text-xl lg:text-3xl lg:leading-tight font-bold">
+                  <h4 className="lg:max-w-3xl text-xl lg:text-3xl lg:leading-tight font-bold">
                     {subTitle}
-                </h4>
+                  </h4>
 
-                <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent">
-                  {description}
-                </p>
+                  <p className="mt-1.5 mx-auto lg:ml-0 leading-normal text-foreground-accent">
+                    {description}
+                  </p>
               </motion.div>
             </div>
           </div>
