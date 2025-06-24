@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="sk">
+    <html lang="sk" suppressHydrationWarning={true}>
       <body
         className={`${manrope.className} ${sourceSans.className} antialiased`}
       >

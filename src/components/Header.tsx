@@ -62,8 +62,7 @@ const Header: React.FC = () => {
         enterTo="opacity-100 scale-100"
         leave="transition ease-in duration-75 transform"
         leaveFrom="opacity-100 scale-100"
-        leaveTo="opacity-0 scale-95"
-      >
+        leaveTo="opacity-0 scale-95">
         <div id="mobile-menu" className="md:hidden bg-white shadow-lg">
           <ul className="flex flex-col space-y-4 pt-1 pb-6 px-6">
             {menuItems.map((item) => (
@@ -73,15 +72,6 @@ const Header: React.FC = () => {
                 </Link>
               </li>
             ))}
-            <li>
-              <Link
-                href="#cta"
-                className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"
-                onClick={toggleMenu}
-              >
-                Get Started
-              </Link>
-            </li>
           </ul>
         </div>
       </Transition>
