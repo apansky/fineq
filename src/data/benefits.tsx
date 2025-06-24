@@ -1,72 +1,22 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
-
 import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
+  {
+    title: "Mgr. Kristína Prokopová",
+    subTitle: "Vaša požiadavka je moja zodpovednosť",
+    description: "Ak hľadáte finančného sprostredkovateľa, ktorý má absolútny prehľad o finančných produktoch, vždy spraví dokonalé porovnanie spoločností a dáva dôraz na presné informácie, tak som pre Vás dokonalý sprostredkovateľ. Sprostredkovanie finančného obchodu beriem ako spôsob plnenia Vašich cieľov. Veľmi si cením dôveru každého jedného klienta a uvedomujem si zodpovednosť, ktorú som od Vás získala. Máte vo svojom bežnom živote toho veľa? Kľudne svoju starostlivosť o financie posuňte na mňa, bude o ne bezchybne postarané. Viem, že vždy spravím maximum k Vašej spokojnosti.",
+    imageSrc: "/images/mockup-1.webp"
+  },
+  {
+    title: "Ivana Harňáková",
+    subTitle: "Komunikačný špecialista",
+    description: "Sú pre Vás financie povinná jazda bežného života? Nemáte na ne životnú energiu a ani veľakrát nerozumiete množstu informácií, ktoré k Vám prichádzajú z každej strany? Predstavte si, že máte finančníka, ktorý sa o Vaše financie prvotriedne postará a všetko Vám vysvetlí bežnou “ľudskou” rečou. Mám dlhoročné skúsenosti z priameho predaja, ktoré ma naučili vysvetliť všetko a každému. Som profesionálny finančník, ktorý sa po čase s veľkou pravdepodobnosťou stane aj osobný kamarát, lebo inak to neviem ani robiť. Mojou úlohou je pochopiť Vaše ciele a nastaviť všetko tak, aby ste tomu rozumeli a získali všetko, po čom túžite. ",
+    imageSrc: "/images/mockup-2.webp"
+  },
+  {
+    title: "Ing. Valéria Pavčírová",
+    subTitle: "Finančný chameleón",
+    description: "Financie mi prinášajú extrémne benefity. Poznám veľa ľudí a veľa ľudí pozná mňa. Prostredníctvom financií dokážem tvoriť úžasné dlhodobé vzťahy na vysoko priateľskej úrovni. Mojou silnou stránkou je prispôsobiť sa každému obchodu na mieru a poskytnúť komfort bezproblémového jednoduchého obchodu. Moje životné heslo je, že “Žijem v Nitre a ak by som niekedy spravila obchod, ktorý by nebol korektný voči klientovi, tak by sa to za chvíľku dozvedela celá Nitra a to si nemôžem dovoliť.” Obchod a stretávanie s ľuďmi ma baví a milujem pocit, ktorý nastane po úspešnom ukončení obchodu. ",
+    imageSrc: "/images/mockup-1.webp"
+  },
 ]
