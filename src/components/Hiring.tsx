@@ -47,7 +47,7 @@ const Hiring: React.FC = () => {
           variants={containerVariants}
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true }}>
+          viewport={{ once: false }}>
             <div className={clsx("flex flex-wrap items-center w-full", { "justify-start": false, "lg:order-1 justify-end": true })}>
               <div className="w-full text-center lg:text-left ">
                 <motion.div className="flex flex-col w-full" variants={childVariants}>
@@ -61,13 +61,13 @@ const Hiring: React.FC = () => {
             <div className={clsx("mt-5 lg:mt-0", { "lg:order-2": false })}>
               <div className={clsx("w-fit flex", { "justify-start": false, "justify-end": true })}>
                 <Image
-                  src={'/images/fineq-now-hiring.png'} 
+                  src={'/images/fineq-now-hiring.jpg'} 
                   width={540}
                   height={765}
                   quality={100}
                   priority={true}
                   unoptimized={true}
-                  alt="app mockup"
+                  alt="Naše služby"
                   className="lg:ml-0"
                 />
               </div>
