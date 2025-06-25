@@ -1,7 +1,8 @@
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits/Benefits";
 import Container from "@/components/Container";
-import Section from "@/components/Section";
+import Services from "@/components/Services";
+import Hiring from "@/components/Hiring";
 
 const HomePage: React.FC = () => {
   return (
@@ -9,11 +10,8 @@ const HomePage: React.FC = () => {
       <Hero />
       <Container>
         <Benefits />
-        <Section id="nase-sluzby" title="Naše služby" description="">
-        </Section>
-        <Section id="hladame-prave-teba" title="Hľadáme práve Teba?" description="">
-        </Section>
-        
+        <Services />
+        <Hiring />
       </Container>
     </>
   );

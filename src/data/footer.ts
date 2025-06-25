@@ -23,8 +23,8 @@ export const footerDetails: {
       url: '#hladame-prave-teba'
     }
   ],
-  email: 'address@yoursite.com',
-  telephone: '+1 (123) 456-7890',
+  email: 'valeria.pavcirova@gmail.com',
+  telephone: '+421 907 404 911',
   socials: {
     twitter: 'https://twitter.com/Twitter',
     facebook: 'https://facebook.com',
