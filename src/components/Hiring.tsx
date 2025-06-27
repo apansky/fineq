@@ -47,7 +47,7 @@ const Hiring: React.FC = () => {
           variants={containerVariants}
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: false }}>
+          viewport={{ once: true }}>
             <div className={clsx("flex flex-wrap items-center w-full", { "justify-start": false, "lg:order-1 justify-end": true })}>
               <div className="w-full text-center lg:text-left ">
                 <motion.div className="flex flex-col w-full" variants={childVariants}>
