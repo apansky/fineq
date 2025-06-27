@@ -61,7 +61,7 @@ const Hiring: React.FC = () => {
             <div className={clsx("mt-5 lg:mt-0", { "lg:order-2": false })}>
               <div className={clsx("w-fit flex", { "justify-start": false, "justify-end": true })}>
                 <Image
-                  src={'/images/fineq-now-hiring.jpg'} 
+                  src={'/images/fineq-now-hiring.webp'} 
                   width={540}
                   height={765}
                   quality={100}

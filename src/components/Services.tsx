@@ -67,7 +67,7 @@ const Services: React.FC = () => {
             <div className={clsx("mt-5 lg:mt-0", { "lg:order-2": true })}>
               <div className={clsx("w-fit flex", { "justify-start": true, "justify-end": false })}>
                 <Image
-                  src={'/images/fineq-services.jpg'} 
+                  src={'/images/fineq-services.webp'} 
                   width={540}
                   height={765}
                   quality={100}
